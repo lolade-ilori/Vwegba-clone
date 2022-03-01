@@ -1,0 +1,254 @@
+body {
+  background: #ebebed;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  padding: 30px 100px 20px 100px;
+}
+
+header .logo h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #33384b;
+}
+
+header .logo h1 span {
+  color: #ef4456;
+}
+
+header nav ul {
+  float: right;
+  margin-top: 25px;
+}
+
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+  float: left;
+  margin-left: 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #33384b;
+  font-family: "Mada", sans-serif;
+  font-size: 14px;
+}
+
+/*SECTION A  */
+section.section-a {
+  min-height: 70vh;
+  padding: 0 100px;
+  padding-bottom: 30px;
+  background-color: #ebebed;
+}
+
+.section-a .theme {
+  position: relative;
+  top: 20px;
+}
+
+.section-a .theme h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #33384b;
+  font-family: "Montserrat", sans-serif;
+  line-height: 53px;
+  margin-bottom: 20px;
+}
+
+.section-a .theme p {
+  font-size: 1rem;
+  color: #33384b;
+  margin-bottom: 30px;
+  font-family: "Mada", sans-serif;
+}
+
+.section-a .theme a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Mada", sans-serif;
+  background-color: #fc4450;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(245, 103, 51),
+    #fd535e
+  );
+  padding: 15px 50px;
+  border-radius: 3px;
+}
+
+.section-a .theme-img {
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.section-a .theme-img img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/* SECTION B */
+section.section-b {
+  background-color: #d8d8d8;
+  position: relative;
+  padding: 0 100px;
+  padding-bottom: 100px;
+  top: -5px;
+}
+
+.section-b .bg-dark {
+  position: absolute;
+  height: 210px;
+  width: 70%;
+  background-color: #33384b;
+  top: -40px;
+  right: 0;
+}
+
+.g-content .grid-25 {
+  position: relative;
+  z-index: 20;
+  font-family: "Mada", sans-serif;
+}
+
+.g-content .social-icons {
+  position: relative;
+  top: 60px;
+  display: flex;
+}
+
+.g-content .social-icons span {
+  flex-grow: 1;
+  padding-bottom: 10px;
+}
+
+.g-content .social-icons span:nth-child(1) {
+  border-bottom: 2px solid #3b5998;
+}
+
+.g-content .social-icons span:nth-child(2) {
+  border-bottom: 2px solid #1da1f2;
+}
+
+.g-content .social-icons span:nth-child(3) {
+  border-bottom: 2px solid #c13584;
+}
+
+.g-content .social-icons span a {
+  text-decoration: none;
+  color: #33384b;
+  font-size: 20px;
+}
+
+.g-content .grid-25 h4 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.g-content .grid-25 p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.g-content .g-box {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.g-content .g-box img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.section-b .gallery-story {
+  padding: 70px 0;
+  padding-bottom: 20px;
+}
+
+.section-b .gallery-story .header h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #33384b;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.section-b .gallery-story .content .pic-display {
+  /* height: 550px; */
+  overflow: hidden;
+  width: 100%;
+}
+
+.section-b .gallery-story .content .pic-display img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.section-b .gallery-story .content .pic-story {
+  height: 300px;
+  background-color: #ebebeb;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-b .gallery-story .content .pic-story h1 {
+  position: absolute;
+  font-size: 240px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #d8d8d8;
+  top: -130px;
+  left: -15px;
+}
+
+.section-b .gallery-story .content .pic-story hr {
+  border: solid 1px #fc4450;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.section-b .gallery-story .content .pic-story p {
+  text-align: center;
+  color: #33384b;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  margin-top: 13px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-b .gallery-display .content .pic-display {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-b .gallery-display .content .pic-display img {
+  display: block;
+  height: auto;
+  width: 100%;
+}

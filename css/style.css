@@ -104,7 +104,7 @@ section.section-b {
   position: relative;
   padding: 0 100px;
   padding-bottom: 100px;
-  top: -5px;
+  /* top: -5px; */
 }
 
 .section-b .bg-dark {
@@ -251,4 +251,70 @@ section.section-b {
   display: block;
   height: auto;
   width: 100%;
+}
+
+/* SECTION-C */
+section.section-c {
+  background-color: #d8d8d8;
+  padding: 100px;
+  padding-top: 0;
+}
+
+section.section-c .magazine-style {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+
+section.section-c .magazine-style img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+section.section-c .article-style {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* gap: 30px; */
+}
+
+section.section-c .article-style .top-section {
+  height: 50%;
+  overflow: hidden;
+}
+
+section.section-c .article-style .top-section h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  color: #33384b;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+section.section-c .article-style .top-section p {
+  color: #33384b;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+
+section.section-c .article-style .bottom-section {
+  height: 50%;
+}
+
+section.section-c .article-style .bottom-section .pic {
+  width: 100%;
+  overflow: hidden;
+}
+
+section.section-c .article-style .bottom-section .pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
